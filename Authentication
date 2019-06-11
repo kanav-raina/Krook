@@ -1,0 +1,25 @@
+Bad Passwords
+   1.Very short or blank.
+     2.Common dictionary words.
+     3.Same as the username.
+     4.Default.
+     5.No password policy.
+
+Enter username with 200 characters
+
+Brute Forcible Login
+   no rate limiting on login
+
+Verbose Failure Message
+   When you click on login button ,dont tell whether username is invalid or password is incorrect.
+     Dont give information to hacker.
+
+Password Change Functionality and Forgotten Password Functionality 
+    Look closely at the reset password link
+
+Remember Me Functionality
+
+Incomplete Validation  of Credentials
+    Check your password with uppercase and lowercase.
+       Truncate your password and check whether you are able to login
+Non Unique Usernames,Predictable Usernames,Predictable Initial Passwords
