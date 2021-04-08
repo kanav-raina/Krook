@@ -1,0 +1,21 @@
+npm audit
+npm outdated
+
+use helmetjs in backend
+app.use(helmet())       //adds security headers
+crypto module in node to encrypt and decrypt data
+
+try to store data in session instead of localStorage
+
+your domain must have ssl certificate  //letsencrypt.org
+
+express-rate-limit //rate limit protection
+const limiter=new RateLimit({
+  windowMs:15*60*1000, // 15 min
+  max:100, //number of request per ip
+  delayMs:0 // disable delays
+})
+
+csurf to protect from csrf
+
+snyk.io   // to scan your github repo online
